@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Ferah</AssemblyName>
+    <RootNamespace>Ferah.App</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\Ferah.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <Company>Ferah</Company>
+    <Product>Ferah · Disk ve sistem bakımı</Product>
+    <Description>Türkçe, yerel ve onay odaklı Windows bakım uygulaması.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Ferah.Core/Ferah.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Ferah.ico" />
+  </ItemGroup>
+</Project>

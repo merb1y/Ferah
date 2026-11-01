@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Ferah.Core</AssemblyName>
+  </PropertyGroup>
+</Project>

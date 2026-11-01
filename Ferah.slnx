@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Ferah.Core/Ferah.Core.csproj" />
+    <Project Path="src/Ferah.App/Ferah.App.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Ferah.Tests/Ferah.Tests.csproj" />
+  </Folder>
+</Solution>
